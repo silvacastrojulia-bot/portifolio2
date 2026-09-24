@@ -7,11 +7,13 @@ function calcular() {
     nota2trim = Number(prompt("Digite a nota do segundo trimestre:"));
 
     resultado = 180 - (nota1trim + nota2trim);
-
-    alert(resultado);
     
-    if(resultado);
-
+    if(resultado <= 0){
+        alert("Arrasou neguin, você passou, serviu cunty");
+    } else {
+        alert("vishe, você precisa de " + resultado + " no terceiro trimestre para conseguir passar, melhore");
+    }
    
 
 }
+
