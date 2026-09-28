@@ -14,6 +14,5 @@ function calcular() {
         alert("vishe, você precisa de " + resultado + " no terceiro trimestre para conseguir passar, melhore");
     }
    
-
 }
 
