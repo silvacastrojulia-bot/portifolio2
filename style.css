@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(203, 129, 221);
+   background-image: url("galaxy.jpg");
+   background-size: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -7,16 +8,27 @@ body{
 .roxo{
     height: 600px;
     width: 50%;
-    background-color: rgb(129, 82, 165);
+    background-color: rgba(128, 48, 129, 0.738);
     margin: auto;
     border-radius: 10%;
 }
 
 a p{
-    background-color: rgb(63, 63, 119);
-    width: 100%;
+    background-color: rgb(63, 27, 111);
+    width: 20%;
     padding: 15px 0;
     text-align: center;
     color: rgb(223, 255, 255);
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 15px auto;
     
+}
+
+a p:hover{
+    background-color: rgb(56, 13, 69);
+    transform: scale(1.2);
+
 }
