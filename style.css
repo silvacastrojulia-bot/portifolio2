@@ -28,7 +28,7 @@ a p{
 }
 
 a p:hover{
-    background-color: rgb(56, 13, 69);
+    background-color: rgb(54, 13, 69);
     transform: scale(1.2);
 
 }
