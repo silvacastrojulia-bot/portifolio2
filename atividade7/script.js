@@ -8,4 +8,11 @@ function aleatorio() {
     let mostrar = document.getElementById('resultado');
     mostrar.innerHTML = `<p>Acabei de pensar no número ${num}.</p>`;
 
+    if(num == 67) {
+        alert("Farmou aura");
+    }
+    else if(num == 13) {
+        alert("Faz o L")
+    }
+
 }
